@@ -1,0 +1,53 @@
+.form-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-user {
+    max-height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.form-user > label {
+    align-self: flex-start;
+}
+
+.form-close {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 900;
+    font-family: "Lucida Console" ,sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.form-controls {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-controls > button {
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 8px;
+}
